@@ -1,0 +1,10 @@
+applications:
+  - name: Router
+    stack: cflinuxfs4
+    buildpack: binary_buildpack
+    command: ./download_router.sh && ./start_router.sh
+    # Use Router's health check endpoint instead of default port health check
+    health-check-type: http
+    health-check-http-endpoint: /health
+    readiness-health-check-type: http
+    readiness-health-check-http-endpoint: /health

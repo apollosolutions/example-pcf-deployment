@@ -1,0 +1,6 @@
+applications:
+  - name: Subgraph
+    stack: cflinuxfs4
+    buildpack: nodejs_buildpack
+    env:
+      NODE_ENV: development

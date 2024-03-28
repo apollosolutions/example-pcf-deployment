@@ -1,0 +1,7 @@
+federation_version: 2
+subgraphs:
+  # Subgraph introspection
+  subgraph:
+    routing_url: https://Subgraph.de.a9sapp.eu # Update to your subgraph URL
+    schema:
+      subgraph_url: https://Subgraph.de.a9sapp.eu # Update to your subgraph URL
